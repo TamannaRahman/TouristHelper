@@ -10,9 +10,9 @@
 		50C13A2B1D6DCA3500C4C53E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C13A2A1D6DCA3500C4C53E /* MapKit.framework */; };
 		50C13A2D1D74617B00C4C53E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C13A2C1D74617B00C4C53E /* CoreLocation.framework */; };
 		50C13A331D747C3B00C4C53E /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C13A321D747C3B00C4C53E /* Place.m */; };
+		50C13A3F1D75C41300C4C53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C13A3E1D75C41300C4C53E /* ViewController.m */; };
 		50CF08B81D6D38D0000D98C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF08B71D6D38D0000D98C3 /* main.m */; };
 		50CF08BB1D6D38D0000D98C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF08BA1D6D38D0000D98C3 /* AppDelegate.m */; };
-		50CF08BE1D6D38D0000D98C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF08BD1D6D38D0000D98C3 /* ViewController.m */; };
 		50CF08C11D6D38D0000D98C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CF08BF1D6D38D0000D98C3 /* Main.storyboard */; };
 		50CF08C31D6D38D0000D98C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CF08C21D6D38D0000D98C3 /* Assets.xcassets */; };
 		50CF08C61D6D38D0000D98C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CF08C41D6D38D0000D98C3 /* LaunchScreen.storyboard */; };
@@ -26,12 +26,12 @@
 		50C13A2C1D74617B00C4C53E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		50C13A311D747C3B00C4C53E /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		50C13A321D747C3B00C4C53E /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		50C13A3D1D75C41300C4C53E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50C13A3E1D75C41300C4C53E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50CF08B31D6D38D0000D98C3 /* TouristHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouristHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CF08B71D6D38D0000D98C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50CF08B91D6D38D0000D98C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50CF08BA1D6D38D0000D98C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50CF08BC1D6D38D0000D98C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50CF08BD1D6D38D0000D98C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50CF08C01D6D38D0000D98C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50CF08C21D6D38D0000D98C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50CF08C51D6D38D0000D98C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,15 +86,15 @@
 			children = (
 				50CF08B91D6D38D0000D98C3 /* AppDelegate.h */,
 				50CF08BA1D6D38D0000D98C3 /* AppDelegate.m */,
-				50CF08BC1D6D38D0000D98C3 /* ViewController.h */,
-				50CF08BD1D6D38D0000D98C3 /* ViewController.m */,
+				50C13A3D1D75C41300C4C53E /* ViewController.h */,
+				50C13A3E1D75C41300C4C53E /* ViewController.m */,
+				50C13A311D747C3B00C4C53E /* Place.h */,
+				50C13A321D747C3B00C4C53E /* Place.m */,
 				50CF08BF1D6D38D0000D98C3 /* Main.storyboard */,
 				50CF08C21D6D38D0000D98C3 /* Assets.xcassets */,
 				50CF08C41D6D38D0000D98C3 /* LaunchScreen.storyboard */,
 				50CF08C71D6D38D1000D98C3 /* Info.plist */,
 				50CF08B61D6D38D0000D98C3 /* Supporting Files */,
-				50C13A311D747C3B00C4C53E /* Place.h */,
-				50C13A321D747C3B00C4C53E /* Place.m */,
 			);
 			path = TouristHelper;
 			sourceTree = "<group>";
@@ -238,9 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CF08BE1D6D38D0000D98C3 /* ViewController.m in Sources */,
 				50CF08BB1D6D38D0000D98C3 /* AppDelegate.m in Sources */,
 				50CF08B81D6D38D0000D98C3 /* main.m in Sources */,
+				50C13A3F1D75C41300C4C53E /* ViewController.m in Sources */,
 				50C13A331D747C3B00C4C53E /* Place.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
